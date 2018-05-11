@@ -10,6 +10,8 @@ $(document).ready(function() {
             var button = $("<button>");
             button.attr("data-letter", buttonTexts[index]);
             button.text(buttonTexts[index]);
+            button.addClass("btn btn-light");
+            button.addClass("col-3");
             calculatorHolder.append(button);
         }
     }
