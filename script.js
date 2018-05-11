@@ -9,7 +9,8 @@ $(document).ready(function() {
             console.log(index);
             var button = $("<button>");
             button.attr("data-letter", buttonTexts[index]);
-            calculatorHolder.html(button);
+            button.text(buttonTexts[index]);
+            calculatorHolder.append(button);
         }
     }
 
